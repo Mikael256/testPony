@@ -41,13 +41,18 @@ ul.ponys li {
 
 ul.ponys li figure img{
     text-align: center;
-    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-img:hover {
+li:hover img {
     filter: hue-rotate(180deg);
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 ul.ponys li figure figcaption {
     text-align: center;
+}
+
+li:hover figcaption {
+    filter: hue-rotate(180deg);
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
